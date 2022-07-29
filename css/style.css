@@ -26,20 +26,22 @@ body {
 }
 
 h1 {
-  font-size: 12.25em;
+  font-size: 30px;
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
+
 }
 
 h2 {
-  font-size: 5.1em;
+  font-size: 30px;
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
 }
 
 h3 {
+  font-size: 30px;
   font-weight: normal;
   letter-spacing: .3em;
   margin-bottom: 18px;
@@ -55,15 +57,16 @@ h4 {
 }
 
 p {
-  font-size: .9em;
-  line-height: 1.8em;
+  font-size: 20px;
+
+
   letter-spacing: .103em;
   margin-bottom: 15px;
 }
 
 span {
   display: inline-block;
-  font-size: 1em;
+
   line-height: 1em;
   letter-spacing: .35em;
   vertical-align: top;
@@ -82,7 +85,8 @@ img {
 }
 
 .album {
-  width: 100%;
+  font-size: 30px;
+  width: 100%;font-size: 5.1em;
   height: 800px;
   margin: 20px 0;
   border: 1px solid black;
@@ -92,15 +96,18 @@ img {
 }
 
 #front {
+  font-size: 30px;
   background: url("https://s3.amazonaws.com/learn-verified/cover.jpg");
   background-size: 100%;
   text-align: center;
 } 
 
 #back {
+  font-size: 30px;
   background: rgba(247,211,27,1);
   text-align: center;
   padding: 130px 35px 35px;
+  font-size: 30px;
 }
 
 #title-box {
